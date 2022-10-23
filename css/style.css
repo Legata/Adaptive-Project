@@ -208,7 +208,7 @@
 }
 
 .content-wrap{
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   padding: 0 15px;
   display: flex;
@@ -723,7 +723,7 @@
 }
 
 .footer-top {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   padding: 0px 20px;
 }
