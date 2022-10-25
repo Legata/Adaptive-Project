@@ -5,8 +5,51 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Adaptive Project</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/desktop.css">
+  <link rel="stylesheet" type="text/css" href="css/tablet.css">
+  <link rel="stylesheet" type="text/css" href="css/mobile.css">
 </head>
 <body>
+
+  <section class="popup">
+    <button class="popup_btn_close" type="button" alt="кнопка закрыть">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 441 441"><path fill="#fff" stroke="#000" d="M220.336 170.564l.353.353.354-.353L390.288 1.318l49.796 49.773-169.269 169.245-.353.354.353.354 169.269 169.245-49.796 49.796-169.245-169.269-.354-.353-.353.353-169.27 169.269-49.748-49.796 169.245-169.245.353-.354-.353-.354L1.318 51.067 51.09 1.318l169.246 169.246z"/></svg>
+      <span class="visually-hidden">Кнопка закрыть</span>
+    </button>
+    <div class="popup_page">    
+      <h3 class="popup_title">ваш фидбек</h3>
+      <div class="popup_items">
+        <div class="form-row">
+          <span class="form-hint">Как часто вы заходите на сайт?</span>
+          <select class="select">
+            <option selected>Почти каждый день</option>
+            <option>Раз в несколько дней</option>
+            <option>Раз в несколько недель</option>
+            <option>Несколько раз в год</option>
+          </select>
+        </div>
+        <form class="popup_radio">
+          <span class="form-hint">Вы подписанына e-mail рассылку?</span>
+          <label class="input_group">
+            <input class="input_group_control" type="radio" name="gender" checked>
+            <snan class="input_group_text">Да</snan>
+          </label>
+          <label class="input_group">
+            <input class="input_group_control" type="radio" name="gender">
+            <snan class="input_group_text">Нет</snan>
+          </label>
+        </form>
+        <div>
+          <span class="form-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+          <textarea class="popup_field" type="text" placeholder="Может, больше рецептов?"></textarea>
+        </div>
+        <button class="popup-button" alt="кнопка отправить">отправить
+          <span class="visually-hidden">Кнопка отправки формы</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
   <div class="project">
     <section class="header">
       <nav class="menu">
@@ -450,3 +493,4 @@
           </footer>
         </body>
         </html>		
+
