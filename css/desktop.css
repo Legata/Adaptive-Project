@@ -193,6 +193,16 @@
   line-height: 1.2;
 }
 
+.trend-name{
+  line-height: 1.2;
+  font-family: open-sans-b, sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
 .trend-text {
   border: 3px solid #b59f5b;
   padding: 34px;
