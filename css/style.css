@@ -25,9 +25,8 @@
   flex-direction: column;
   position: fixed;
   z-index: 2;
-  max-width: 390px;
-  margin-left: 37vw;
-  margin-top: 12%;
+  width: 100%;
+  height: 100%;
   visibility: hidden;
 }
 
@@ -49,14 +48,15 @@
   fill: #ffffff;
   background: rgb(0, 0, 0, 0);
   border: none;
-  margin-left: auto;
   -webkit-appearance: none;
   margin-bottom: 7px;
 }
 
 .popup_page {
+  margin: 0 auto;
   background-color: #ffffff;
   padding: 54px 30px;
+  width: 390px;
 }
 
 .popup_title {
@@ -90,7 +90,7 @@
 .select {
   display: inline-block;
   box-sizing: border-box;
-  width: 330px;
+  width: 100%;
   height: 48px;
   padding-left: 10px;
   padding-right: 25px;
@@ -149,8 +149,7 @@
   background-color: #f4f7f6;
   min-height: 131px;
   max-height: 131px;
-  min-width: 330px;
-  max-width: 330px;
+  width: 100%;
   padding: 0px;
   border-style: none;
 }
