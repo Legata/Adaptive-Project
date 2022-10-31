@@ -720,7 +720,7 @@ display: none;
   display: flex;
   align-items: flex-end;
   padding: 15px 20px;
-  background-color: #00f000;
+  background-color: #eff6f1;
   position: relative;
   z-index: 0;
 }
@@ -826,7 +826,7 @@ display: none;
   display: flex;
   align-items: flex-end;
   padding: 15px 20px;
-  background-color: #00f000;
+  background-color: #eff6f1;
   position: relative;
   z-index: 0;
   margin-right: 4px;
